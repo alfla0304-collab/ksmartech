@@ -1,0 +1,491 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ksmartech Renewal</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header>
+    <div class="inner">
+        <h1 class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="KSMARTECH"></a>
+        </h1>
+
+        <nav class="pc-nav">
+            <ul class="gnb-depth1">
+                <li><a href="company.html">COMPANY</a></li>
+                <li><a href="solution.html">SOLUTION</a></li>
+                <li><a href="works.html">WORKS</a></li>
+                <li><a href="insight.html">INSIGHT</a></li>
+            </ul>
+            <div class="gnb-dropdown-panel">
+                <div class="dropdown-inner">
+                    <div class="depth2-group">
+                        <ul class="depth2-list">
+                            <li><a href="company.html">회사소개</a></li>
+                            <li><a href="history.html">연혁</a></li>
+                            <li><a href="cert.html">특허 및 인증현황</a></li>
+                            <li><a href="esg.html">ESG 경영</a></li>
+                        </ul>
+                        <ul class="depth2-list">
+                            <li><a href="sol_mobile.html">Mobile Digital Key</a></li>
+                            <li><a href="sol_key4c.html">Key4C</a></li>
+                            <li><a href="sol_integrated.html">통합형 Digital Key</a></li>
+                        </ul>
+                        <ul class="depth2-list">
+                            <li><a href="works_all.html">ALL</a></li>
+                            <li><a href="works_web.html">Web</a></li>
+                            <li><a href="works_app.html">App</a></li>
+                        </ul>
+                        <ul class="depth2-list">
+                            <li><a href="news.html">News</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+<div class="header-right">
+    <div class="lang-switch" id="langSwitch">
+        KOR <i class="fa-solid fa-chevron-down"></i>
+        <ul class="lang-list">
+            <li><a href="#">KOR</a></li>
+            <li><a href="#">ENG</a></li>
+        </ul>
+    </div>
+
+    <button class="mo-menu-btn" id="moMenuBtn">
+        <img src="img/icon_menu.png" alt="메뉴열기">
+    </button>
+</div>
+
+    <div class="mo-menu-overlay" id="moMenuOverlay">
+      <div class="mo-menu-header">
+    <h1 class="mo-logo"><img src="img/logo.png" alt="KSMARTECH"></h1>
+    
+    <button class="mo-close-btn" id="moCloseBtn">
+        <img src="img/icon_close.png" alt="닫기">
+    </button>
+</div>
+        
+        <ul class="mo-gnb">
+            <li class="mo-gnb-item">
+                <a href="javascript:void(0);" class="mo-gnb-title">COMPANY</a>
+                <ul class="mo-depth2">
+                    <li><a href="company.html">회사소개</a></li>
+                    <li><a href="#">연혁</a></li>
+                    <li><a href="#">특허 및 인증현황</a></li>
+                    <li><a href="#">ESG 경영</a></li>
+                </ul>
+            </li>
+            <li class="mo-gnb-item">
+                <a href="javascript:void(0);" class="mo-gnb-title">SOLUTION</a>
+                <ul class="mo-depth2">
+                    <li><a href="solution.html">Mobile Digital Key</a></li>
+                    <li><a href="#">Key4C</a></li>
+                    <li><a href="#">통합형 Digital Key</a></li>
+                </ul>
+            </li>
+            <li class="mo-gnb-item">
+                <a href="javascript:void(0);" class="mo-gnb-title">WORKS</a>
+                <ul class="mo-depth2">
+                    <li><a href="works.html">ALL</a></li>
+                    <li><a href="#">Web</a></li>
+                    <li><a href="#">App</a></li>
+                </ul>
+            </li>
+            <li class="mo-gnb-item">
+                <a href="javascript:void(0);" class="mo-gnb-title">INSIGHT</a>
+                <ul class="mo-depth2">
+                    <li><a href="insight.html">News</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</header>
+
+
+
+  <section class="sec-hero">
+        <div class="hero-overlay"></div>
+        
+        <video class="video-bg" autoplay muted loop playsinline poster="img/main_bg_fallback.png">
+            <source src="https://cdn.pixabay.com/video/2016/01/29/1992-153555258_large.mp4" type="video/mp4">
+        </video>
+
+        <div class="hero-txt fade-wrap">
+            <h2>모두를 위한<br>안전하고 편리한<br>디지털 세상을<br>만듭니다</h2>
+        </div>
+        <div class="scroll-down-wrap">
+            <div class="mouse"><div class="wheel"></div></div>
+            <div class="arrow-down"></div>
+        </div>
+    </section>
+
+    <section class="sec-solutions" id="secSolutions">
+        <div class="sticky-wrapper">
+            <div class="sol-header-area">
+                <div class="sol-header">
+                    <h3 class="point-txt fade-wrap">SOLUTION</h3>
+                    <h2 class="fade-wrap delay-1">보안인증/ 통신 기술 기반 솔루션을 통해<br>성장하고 있습니다</h2>
+                </div>
+            </div>
+            
+            <div class="sol-track" id="solTrack">
+                <a href="#link1" class="sol-card fade-wrap">
+                    <img src="img/main_1_v01.png" alt="Key4C" class="card-bg">
+                    <div class="sol-text">
+                        <div class="text-group">
+                            <span class="cate">SaaS Digital Key</span>
+                            <h4 class="tit">Key4C</h4>
+                            <p class="desc">개인 정보 데이터와<br class="mo-br">인증 값의 필수인 암호화 키를<br class="pc-br"> 가장 안전하고 편리하게<br class="mo-br">사용할 수 있는 서비스</p>
+                        </div>
+                        <div class="btn-wrap">
+                            <span class="btn-round">자세히 보기 <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="#link2" class="sol-card fade-wrap delay-1">
+                    <img src="img/main_1_v02.png" alt="Digital Key" class="card-bg">
+                    <div class="sol-text">
+                        <div class="text-group">
+                            <span class="cate">Mobility Digital Key</span>
+                            <h4 class="tit">Digital Key</h4>
+                            <p class="desc">스마트폰 또는 카드 키를 이용해<br class="pc-br">안전한 서비스를 제공할 수 있는 <br class="mo-br">보안 인증 서비스</p>
+                        </div>
+                        <div class="btn-wrap">
+                            <span class="btn-round">자세히 보기 <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="#link3" class="sol-card fade-wrap delay-2">
+                    <img src="img/main_1_v03.png" alt="One Key" class="card-bg">
+                    <div class="sol-text">
+                        <div class="text-group">
+                            <span class="cate">Integrated Digital Key</span>
+                            <h4 class="tit">One Key</h4>
+                            <p class="desc">하나의 디지털 키로 다양한 서비스를<br class="pc-br">안전하고 편안하게 이용할 수 있는 서비스</p>
+                        </div>
+                        <div class="btn-wrap">
+                            <span class="btn-round">자세히 보기 <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </a>
+                
+                <div class="sol-card dummy"></div>
+            </div>
+
+            <div class="sol-pagination">
+                <span class="pag-dot active"></span>
+                <span class="pag-dot"></span>
+                <span class="pag-dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-values">
+        <div class="container">
+            <div class="sol-header center-header">
+                <span class="sub-tit point-txt fade-wrap">VISION</span>
+                <h2 class="fade-wrap delay-1">기술의 혁신을 넘어,<br>사람을 향한 가치를 만듭니다</h2>
+            </div>
+            <div class="value-grid">
+                <div class="val-card fade-wrap"><div class="val-card-top"><img src="img/main_2_ico01.png" class="val-icon" alt="혁신"><div class="val-tit-group"><h4>INNOVATION</h4><span class="val-ko">혁신</span></div></div><p class="val-desc">고객의 요구에 맞춘 혁신적인<br>솔루션을 지속적으로 개발합니다.</p></div>
+                <div class="val-card fade-wrap delay-1"><div class="val-card-top"><img src="img/main_2_ico02.png" class="val-icon" alt="신뢰"><div class="val-tit-group"><h4>TRUST</h4><span class="val-ko">신뢰</span></div></div><p class="val-desc">신뢰할 수 있는 보안 기술로<br>고객의 믿음을 지켜갑니다.</p></div>
+                <div class="val-card fade-wrap delay-2"><div class="val-card-top"><img src="img/main_2_ico03.png" class="val-icon" alt="안전"><div class="val-tit-group"><h4>SAFETY</h4><span class="val-ko">안전</span></div></div><p class="val-desc">언제나 안전하게<br>데이터를 보호합니다.</p></div>
+                <div class="val-card fade-wrap delay-3"><div class="val-card-top"><img src="img/main_2_ico04.png" class="val-icon" alt="존중"><div class="val-tit-group"><h4>RESPECT</h4><span class="val-ko">존중</span></div></div><p class="val-desc">파트너와 고객의 목표를<br>존중하며, 함께 성장합니다.</p></div>
+                <div class="val-card fade-wrap delay-1"><div class="val-card-top"><img src="img/main_2_ico05.png" class="val-icon" alt="협력"><div class="val-tit-group"><h4>COLLABORATION</h4><span class="val-ko">협력</span></div></div><p class="val-desc">공동의 목표를 향해 파트너 및<br>고객과 긴밀히 협력합니다.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-patents">
+        <div class="container pat-container">
+            <div class="pat-left fade-wrap">
+                <span class="sub-tit point-txt">PROVEN</span>
+                <h2>차세대 글로벌 인증 기업<br>특허·인증·수상</h2>
+                <a href="#" class="btn-more-outline">자세히 보기 &rarr;</a>
+            </div>
+            <div class="pat-right fade-wrap delay-1">
+                <ul class="pat-list">
+                    <li class="pat-item"><a href="#" class="pat-link"><span class="pat-cat">특허</span><span class="pat-desc">디지털 키 통합 서비스 제공 시스템 및 그 방법</span><i class="fa-solid fa-arrow-right pat-arrow"></i></a></li>
+                    <li class="pat-item"><a href="#" class="pat-link"><span class="pat-cat">특허</span><span class="pat-desc">차량용 디지털 키 공유 서비스 방법 및 시스템</span><i class="fa-solid fa-arrow-right pat-arrow"></i></a></li>
+                    <li class="pat-item"><a href="#" class="pat-link"><span class="pat-cat">인증</span><span class="pat-desc">ISO/IEC 27001 획득</span><i class="fa-solid fa-arrow-right pat-arrow"></i></a></li>
+                    <li class="pat-item"><a href="#" class="pat-link"><span class="pat-cat">인증</span><span class="pat-desc">GS 인증 : 1등급/24-0619</span><i class="fa-solid fa-arrow-right pat-arrow"></i></a></li>
+                    <li class="pat-item"><a href="#" class="pat-link"><span class="pat-cat">수상</span><span class="pat-desc">2025 데이터·클라우드 진흥주간 장관상</span><i class="fa-solid fa-arrow-right pat-arrow"></i></a></li>
+                    <li class="pat-item"><a href="#" class="pat-link"><span class="pat-cat">수상</span><span class="pat-desc">2024 중소기업 R&D 우수성과 50선 선정</span><i class="fa-solid fa-arrow-right pat-arrow"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+<section class="sec-partners">
+        <div class="container">
+            <div class="sol-header center-header fade-wrap">
+                <span class="sub-tit point-txt">PARTNERS</span>
+                <h2>업계를 선도하는 기업들이 선택한<br>보안 전문 파트너</h2>
+            </div>
+
+            <div class="part-tab-nav fade-wrap delay-1">
+                <button class="tab-btn active" data-tab="client">Client</button>
+                <button class="tab-btn" data-tab="partner">Partner</button>
+                <button class="tab-btn" data-tab="investor">Investor</button>
+            </div>
+
+            <div class="part-tab-content fade-wrap delay-2">
+                
+                <div class="tab-pane active" id="client">
+                    <div class="partner-grid">
+                        <div class="part-item"><img src="img/logo_01.png" alt="KT"></div>
+                        <div class="part-item"><img src="img/logo_02.png" alt="LG U+"></div>
+                        <div class="part-item"><img src="img/logo_03.png" alt="mediaLog"></div>
+                        <div class="part-item"><img src="img/logo_04.png" alt="BC"></div>
+                        <div class="part-item"><img src="img/logo_05.png" alt="Shinhan"></div>
+                        <div class="part-item"><img src="img/logo_06.png" alt="Hana Hold"></div>
+                        <div class="part-item"><img src="img/logo_07.png" alt="AutoEver"></div>
+                        <div class="part-item"><img src="img/logo_08.png" alt="Hyundai"></div>
+                        <div class="part-item"><img src="img/logo_09.png" alt="Hyundai"></div>
+                        <div class="part-item"><img src="img/logo_10.png" alt="AutoEver"></div>
+                        <div class="part-item"><img src="img/logo_11.png" alt="Hyundai"></div>
+                        <div class="part-item"><img src="img/logo_12.png" alt="Hyundai"></div>
+                        <div class="part-item"><img src="img/logo_13.png" alt="AutoEver"></div>
+                        <div class="part-item"><img src="img/logo_14.png" alt="Hyundai"></div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="partner">
+                    <div class="partner-grid">
+                        <div class="part-item"><img src="img/logo_01.png" alt="KT"></div>
+                        <div class="part-item"><img src="img/logo_02.png" alt="LG U+"></div>
+                        <div class="part-item"><img src="img/logo_03.png" alt="mediaLog"></div>
+                        <div class="part-item"><img src="img/logo_04.png" alt="BC"></div>
+                        <div class="part-item"><img src="img/logo_05.png" alt="Shinhan"></div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="investor">
+                    <div class="partner-grid">
+                        <div class="part-item"><img src="img/logo_06.png" alt="Hana Hold"></div>
+                        <div class="part-item"><img src="img/logo_07.png" alt="AutoEver"></div>
+                        <div class="part-item"><img src="img/logo_08.png" alt="Hyundai"></div>
+                        <div class="part-item"><img src="img/logo_09.png" alt="Hyundai"></div>
+                        <div class="part-item"><img src="img/logo_10.png" alt="AutoEver"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-insight">
+        <div class="container">
+            <div class="sol-header insight-header">
+                <span class="sub-tit point-txt fade-wrap">INSIGHT</span>
+                <h2 class="fade-wrap delay-1">케이스마텍이 만들어가는<br>새로운 변화와 소식</h2>
+            </div>
+            <div class="news-grid">
+                <a href="https://www.etnews.com/20260106000108" class="news-card fade-wrap delay-1" target="_blank">
+                    <span class="news-cate">NEWS</span>
+                    <h4 class="news-tit">케이스마텍, Key4C JWT 서비스 GS인증 1등급 획득...</h4>
+                    <p class="news-desc">클라우드 보안 전문기업 케이스마텍은 AWS(아마존 웹 서비스)에서 제공하는 자사 'KEY4C ...</p>
+                    <div class="news-footer">
+                        <span class="news-date">2026-01-06</span>
+                        <div class="news-btn">자세히 보기 <i class="fa-solid fa-arrow-right"></i></div>
+                    </div>
+                </a>
+                <a href="https://www.fnnews.com/news/202512181615403462" class="news-card fade-wrap delay-2" target="_blank">
+                    <span class="news-cate">NEWS</span>
+                    <h4 class="news-tit">케이스마텍, '2025 데이터·클라우드 진흥주간' 장관상</h4>
+                    <p class="news-desc">[파이낸셜뉴스] 케이스마텍이 '2025 데이터·클라우드 진흥주간 시상식'에서 서비스형 ...</p>
+                    <div class="news-footer">
+                        <span class="news-date">2025-12-28</span>
+                        <div class="news-btn">자세히 보기 <i class="fa-solid fa-arrow-right"></i></div>
+                    </div>
+                </a>
+                <a href="https://www.dailian.co.kr/news/view/1568060/?sc=Naver" class="news-card fade-wrap delay-3" target="_blank">
+                    <span class="news-cate">NEWS</span>
+                    <h4 class="news-tit">케이스마텍, ISO 인증으로 '글로벌 SaaS 시장' 도전</h4>
+                    <p class="news-desc">클라우드 보안 전문기업 케이스마텍이 글로벌 SaaS(서비스형 소프트웨어) 사업 확대를 위한...</p>
+                    <div class="news-footer">
+                        <span class="news-date">2025-11-04</span>
+                        <div class="news-btn">자세히 보기 <i class="fa-solid fa-arrow-right"></i></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-contact" id="contact">
+        <div class="contact-overlay"></div>
+        <div class="container contact-content">
+            <span class="sub-tit point-txt fade-wrap">Contact US</span>
+            <h2 class="contact-title fade-wrap delay-1">스마트한 사람들이 모여서<br>일하는 스마트한 기업</h2>
+            <p class="contact-subtitle fade-wrap delay-2">오늘, 그리고 내일을 위한 소중한 동행</p>
+            <div class="contact-btn-group fade-wrap delay-3">
+                <a href="#" class="btn-contact-outline">제품 및 사업 문의 <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" class="btn-contact-outline">기업 소개서 <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="floating-btns">
+        <a href="#contact" class="float-btn contact-btn">문의</a>
+        <a href="#" class="float-btn top-btn" onclick="window.scrollTo({top:0, behavior:'smooth'}); return false;">TOP</a>
+    </div>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-top">
+                <h1 class="footer-logo">KSMARTECH</h1>
+                <a href="#" class="footer-brochure-btn">회사소개서</a>
+            </div>
+            <div class="footer-bottom">
+                <div class="company-info">
+                    <span>(주)케이스마텍</span>
+                    <span>연락처 : 070-7510-1000</span>
+                    <span>공동대표이사 : 고인옥, 정순호</span>
+                    <span>설립일 : 2010년 5월 24일</span>
+                    <span>사업자등록번호 : 113-86-39275</span>
+                </div>
+                <p class="copyright">COPYRIGHT©Ksmartech.co., LTD. All right reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            // 1. [햄버거 버튼] 클릭 기능
+            const moMenuBtn = document.getElementById('moMenuBtn');
+            const moCloseBtn = document.getElementById('moCloseBtn');
+            const moOverlay = document.getElementById('moMenuOverlay');
+
+            // 버튼이 존재하는지 확인 후 이벤트 연결
+            if (moMenuBtn && moOverlay) {
+                moMenuBtn.addEventListener('click', function(e) {
+                    e.preventDefault(); // 기본 동작 차단
+                    moOverlay.classList.add('active'); // 메뉴 열기
+                    document.body.style.overflow = 'hidden'; // 스크롤 막기
+                });
+            }
+
+            if (moCloseBtn && moOverlay) {
+                moCloseBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    moOverlay.classList.remove('active'); // 메뉴 닫기
+                    document.body.style.overflow = 'auto'; // 스크롤 풀기
+                });
+            }
+
+            // 2. [모바일 아코디언] 메뉴 펼치기
+            const moGnbTitles = document.querySelectorAll('.mo-gnb-title');
+            moGnbTitles.forEach(function(title) {
+                title.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const parent = this.parentElement;
+                    
+                    // 눌린 것만 열고 나머지는 닫기 (원하면 주석 해제)
+                    // document.querySelectorAll('.mo-gnb-item').forEach(item => {
+                    //    if(item !== parent) item.classList.remove('active');
+                    // });
+
+                    parent.classList.toggle('active');
+                });
+            });
+
+            // 3. [탭 메뉴] 파트너스 섹션
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            const tabPanes = document.querySelectorAll('.tab-pane');
+
+            tabBtns.forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    tabBtns.forEach(b => b.classList.remove('active'));
+                    tabPanes.forEach(p => p.classList.remove('active'));
+
+                    btn.classList.add('active');
+                    const targetId = btn.getAttribute('data-tab');
+                    const targetPane = document.getElementById(targetId);
+                    if (targetPane) targetPane.classList.add('active');
+                });
+            });
+
+            // 4. [솔루션 스크롤] PC/모바일 분기 처리
+            const secSolutions = document.getElementById('secSolutions');
+            const solTrack = document.getElementById('solTrack');
+            const pagDots = document.querySelectorAll('.pag-dot');
+
+            // 페이지네이션(점) 클릭 이동
+            pagDots.forEach(function(dot, index) {
+                dot.addEventListener('click', function() {
+                    if (solTrack) {
+                        const scrollAmount = index * 300; 
+                        solTrack.scrollTo({ left: scrollAmount, behavior: 'smooth' });
+                    }
+                });
+            });
+
+            function handleScroll() {
+                // 모바일 환경
+                if (window.innerWidth <= 1024) {
+                    if (solTrack) {
+                        solTrack.style.transform = 'none'; // PC 효과 제거
+                        // 스크롤 위치에 따른 점 활성화
+                        const scrollLeft = solTrack.scrollLeft;
+                        const activeIndex = Math.round(scrollLeft / 280); // 카드 너비 기준
+                        
+                        pagDots.forEach(function(dot, idx) {
+                            if(idx === activeIndex) dot.classList.add('active');
+                            else dot.classList.remove('active');
+                        });
+                    }
+                    return; 
+                }
+
+                // PC 환경 가로 스크롤
+                if (secSolutions && solTrack) {
+                    const sectionTop = secSolutions.offsetTop;
+                    const sectionHeight = secSolutions.offsetHeight;
+                    const scrollY = window.scrollY;
+                    const windowHeight = window.innerHeight;
+                    const startPoint = sectionTop;
+                    
+                    let progress = (scrollY - startPoint) / (sectionHeight - windowHeight);
+                    if (progress < 0) progress = 0;
+                    if (progress > 1) progress = 1;
+
+                    const moveDistance = solTrack.scrollWidth - window.innerWidth + 80;
+                    solTrack.style.transform = `translateX(-${moveDistance * progress}px)`;
+                }
+            }
+
+            window.addEventListener('scroll', handleScroll);
+            window.addEventListener('resize', handleScroll);
+            if(solTrack) solTrack.addEventListener('scroll', handleScroll);
+            handleScroll();
+
+            // 5. Fade In 애니메이션
+            const aniTargets = document.querySelectorAll('.fade-wrap');
+            const observer = new IntersectionObserver(function(entries, obs) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('fade-in');
+                        obs.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+            aniTargets.forEach(el => observer.observe(el));
+        });
+    </script>
+
+</body>
+</html>
