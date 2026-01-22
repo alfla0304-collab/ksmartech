@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -165,23 +165,21 @@
         <div class="container">
             <h3 class="page-tit center fade-wrap">오시는 길</h3>
             
-            <div class="map-wrapper fade-wrap delay-1">
+           <div class="map-wrapper fade-wrap delay-1">
     <div id="map" style="width:100%; height:100%;"></div>
 </div>
 
-<script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=ewrlzcpmx0"></script>
+<script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=ta9ju1ho2k"></script>
 
 <script>
-    // 지도 옵션 설정 (케이스마텍 우림라이온스밸리 A동 좌표)
     var mapOptions = {
-        center: new naver.maps.LatLng(37.480956, 126.882350), // 좌표 설정
-        zoom: 16 // 확대 레벨 (10~20)
+        // 좌표: 서울 금천구 가산디지털1로 168 (우림라이온스밸리 A동)
+        center: new naver.maps.LatLng(37.480956, 126.882350), 
+        zoom: 16
     };
 
-    // 지도 생성
     var map = new naver.maps.Map('map', mapOptions);
 
-    // 마커 추가 (회사 위치 표시)
     var marker = new naver.maps.Marker({
         position: new naver.maps.LatLng(37.480956, 126.882350),
         map: map
